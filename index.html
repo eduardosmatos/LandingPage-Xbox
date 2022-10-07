@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xbox</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img src="assets/img/logo.png" alt="Logo do Xbox" class="logo">
+            <nav>
+                <ul id="listaMenu">
+                    <li><a href="#">Controles</a></li>
+                    <li><a href="#">Acessórios</a></li>
+                    <li><a href="#">Jogos</a></li>
+                    <li><a href="#">Outros</a></li>
+                </ul>
+            </nav>
+            <img src="assets/img/menu.png" alt="Ícone do menu" class="icone__menu" onclick="togglemenu()">
+        </div>
+
+        <div class="linha">
+            <div class="coluna-1">
+                <h2>Controle sem fio Xbox<br>Carbon Black</h2>
+                <h3>Gatilhos e botões texturizados I Botões direcionais híbridos I Mapeamento de botões I Tecnologia Bluetooth®</h3>
+                <p>	Conecte-se aos consoles Xbox com o Xbox Sem Fio. Conecte-se sem fio a PCs com Windows 10/11, tablets, iOS e Android usando Bluetooth.</p>
+                <h4>R$ 489,00</h4>
+                <button type="button">Comprar Agora<img src="assets/img/seta.png"></button>
+            </div>
+            <div class="coluna-2">
+                <img src="assets/img/controle.png" alt="Controle do Xbox" class="controle">
+                <div class="cor__caixa"></div>
+                <div class="botao__adicionar">
+                    <img src="assets/img/adicionar.png" alt="">
+                    <p><small>Adicionar ao Carrinho</small></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="redes__sociais">
+            <img src="assets/img/facebook.png" alt="ícone do facebook" href="https://www.facebook.com/XboxBR">
+            <img src="assets/img/instagram.png" alt="ícone do instagram" href="https://www.instagram.com/xboxbr/">
+            <img src="assets/img/twitter.png" alt="ícone do twitter" href="https://twitter.com/xboxbr">
+        </div>
+
+    </div>
+
+    <script>
+        var listaMenu = document.getElementById("listaMenu");
+        listaMenu.style.maxHeight = "0px";
+        function togglemenu() {
+            if(listaMenu.style.maxHeight == "0px") {
+                listaMenu.style.maxHeight = "130px";
+            }
+            else {
+                listaMenu.style.maxHeight = "0px";
+            }
+        }
+    </script>
+</body>
+</html>
