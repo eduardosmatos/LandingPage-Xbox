@@ -1,4 +1,4 @@
-<h1 align="center"> Controle Xbox One X|S 🎮</h1>
+<h1 align="center"> Landing Page Xbox One 🎮</h1>
 
 <p align="center">Uma landing page criada para divulgar o novo controle sem fio do Xbox, o modelo Carbon Black.</p>
 
